@@ -5,6 +5,9 @@
 
 ![DESKTOP][2]
 
+## 𝗩𝗜𝗗𝗘𝗢 𝗧𝗨𝗧𝗢𝗥𝗜𝗔𝗟
+[![YouTube Video](https://img.youtube.com/vi/OBYzgRHsKw0/maxresdefault.jpg)](https://www.youtube.com/watch?v=OBYzgRHsKw0)
+| Click image above to watch video on [YouTube](https://www.youtube.com/watch?v=OBYzgRHsKw0)
 
 # ![UBUNTU LOGO][3] 𝗙𝗟𝗔𝗩𝗢𝗥𝗦
 ***Choose your favorite Ubuntu version with tags***
