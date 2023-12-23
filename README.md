@@ -122,5 +122,5 @@ Dockerfile and configuration are re-generate if they do not exist. Or you may fo
   [2]: https://i.ibb.co/2q0C1qN/Screenshot-2023-12-23-5-48-21-AM.png
   [3]: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr7x7rR8pCp-BAuUFCvyHzUhEI7usAW0iKwCiLe_s6I5lUEDe-n-pOl9XtFFlowcWRMQ&usqp=CAU
   [4]: https://i.ibb.co/ySBTs48/Screenshot-2023-12-23-5-24-23-AM.jpg
-  [5]: http://img.youtube.com/vi/Kv9FGClP1-k/0.jpg
+  [5]: https://i.ibb.co/LhXTfh3/687474703a2f2f696d672e796f75747562652e636f6d2f76692f4b76394647436c50312d6b2f302e6a7067.jpg
   [6]: https://i.ibb.co/mNzXrm7/image.png
