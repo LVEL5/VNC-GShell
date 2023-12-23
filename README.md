@@ -16,7 +16,7 @@
  - xenial: Ubuntu 16.04 (deprecated)
  - trusty: Ubuntu 14.04 (deprecated)
 
-----------
+
 ## 𝗚𝗘𝗧 𝗦𝗧𝗔𝗥𝗧𝗘𝗗
 
 ##### Open Google [**Cloudshell**](https://shell.cloud.google.com/?show=ide,terminal&authuser=1&fromcloudshell=true)
