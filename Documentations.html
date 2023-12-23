@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RDP GShell</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="𝗖𝗟𝗢𝗨𝗗𝗦𝗛𝗘𝗟𝗟--𝗩𝗡𝗖--𝗘𝗫𝗣𝗟𝗢𝗜𝗧">𝗖𝗟𝗢𝗨𝗗𝗦𝗛𝗘𝗟𝗟  𝗩𝗡𝗖  𝗘𝗫𝗣𝗟𝗢𝗜𝗧</h2>
+<p><img src="https://i.ibb.co/tK0h6mg/image.png" alt="LOGO"></p>
+<h4 id="𝗔𝗕𝗢𝗨𝗧-𝗣𝗥𝗢𝗝𝗘𝗖𝗧">𝗔𝗕𝗢𝗨𝗧 𝗣𝗥𝗢𝗝𝗘𝗖𝗧</h4>
+<p><code>docker-ubuntu-vnc-desktop</code> is a Docker image to provide web VNC interface to access Ubuntu LXDE/LxQT desktop environment.</p>
+<p><img src="https://i.ibb.co/2q0C1qN/Screenshot-2023-12-23-5-48-21-AM.png" alt="DESKTOP"></p>
+<h2 id="𝗩𝗜𝗗𝗘𝗢-𝗧𝗨𝗧𝗢𝗥𝗜𝗔𝗟">𝗩𝗜𝗗𝗘𝗢 𝗧𝗨𝗧𝗢𝗥𝗜𝗔𝗟</h2>
+<p><a href="https://www.youtube.com/watch?v=OBYzgRHsKw0"><img src="https://img.youtube.com/vi/OBYzgRHsKw0/maxresdefault.jpg" alt="YouTube Video"></a><br>
+| Click image above to watch video on <a href="https://www.youtube.com/watch?v=OBYzgRHsKw0">YouTube</a></p>
+<h1 id="𝗙𝗟𝗔𝗩𝗢𝗥𝗦"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr7x7rR8pCp-BAuUFCvyHzUhEI7usAW0iKwCiLe_s6I5lUEDe-n-pOl9XtFFlowcWRMQ&amp;usqp=CAU" alt="UBUNTU LOGO"> 𝗙𝗟𝗔𝗩𝗢𝗥𝗦</h1>
+<p><em><strong>Choose your favorite Ubuntu version with tags</strong></em></p>
+<ul>
+<li>focal: Ubuntu 20.04 (latest)</li>
+<li>focal-lxqt: Ubuntu 20.04 LXQt</li>
+<li>bionic: Ubuntu 18.04</li>
+<li>bionic-lxqt: Ubuntu 18.04 LXQt</li>
+<li>xenial: Ubuntu 16.04 (deprecated)</li>
+<li>trusty: Ubuntu 14.04 (deprecated)</li>
+</ul>
+<h2 id="𝗚𝗘𝗧-𝗦𝗧𝗔𝗥𝗧𝗘𝗗">𝗚𝗘𝗧 𝗦𝗧𝗔𝗥𝗧𝗘𝗗</h2>
+<h5 id="open-google-cloudshell">Open Google <a href="https://shell.cloud.google.com/?show=ide,terminal&amp;authuser=1&amp;fromcloudshell=true"><strong>Cloudshell</strong></a></h5>
+<p><img src="https://i.ibb.co/ySBTs48/Screenshot-2023-12-23-5-24-23-AM.jpg" alt="GSHELL"></p>
+<h3 id="𝗥𝗨𝗡-𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦-𝗕𝗘𝗟𝗢𝗪">𝗥𝗨𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗕𝗘𝗟𝗢𝗪</h3>
+<pre><code>docker run -p 6070:80 dorowu/ubuntu-desktop-lxde-vnc
+</code></pre>
+<h4 id="𝗖𝗛𝗔𝗡𝗚𝗘-𝗣𝗢𝗥𝗧">𝗖𝗛𝗔𝗡𝗚𝗘 𝗣𝗢𝗥𝗧</h4>
+<h4 id="𝗣𝗢𝗥𝗧--6070">𝗣𝗢𝗥𝗧 : <code>6070</code></h4>
+<p><img src="https://i.ibb.co/k0sTNcY/Screenshot-2023-12-23-5-37-51-AM.png" alt="Port Setting">  <img src="https://i.ibb.co/vQNHtbh/Screenshot-2023-12-23-5-39-19-AM.png" alt="Change Port"></p>
+<h4 id="𝗗𝗢𝗖𝗞𝗘𝗥-𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦">𝗗𝗢𝗖𝗞𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦</h4>
+<pre><code>docker run -d -t --name [hub name] [new name]
+docker exec -it [new name] [exp: sh]
+</code></pre>
+<h4 id="𝗦𝗬𝗦𝗧𝗘𝗠-𝗨𝗣𝗗𝗔𝗧𝗘--𝗜𝗡𝗦𝗧𝗔𝗟𝗟-𝗧𝗢𝗢𝗟𝗦">𝗦𝗬𝗦𝗧𝗘𝗠 𝗨𝗣𝗗𝗔𝗧𝗘 &amp; 𝗜𝗡𝗦𝗧𝗔𝗟𝗟 𝗧𝗢𝗢𝗟𝗦</h4>
+<pre><code>sudo su
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 6494C6D6997C215E
+apt-get update -y
+apt-get upgrade -y
+</code></pre>
+<h4 id="𝗜𝗡𝗦𝗧𝗔𝗟𝗟-𝗨𝗕𝗨𝗡𝗧𝗨-𝗣𝗥𝗢𝗗𝗨𝗖𝗧𝗜𝗩𝗜𝗧𝗬-𝗦𝗢𝗙𝗧𝗪𝗔𝗥𝗘">𝗜𝗡𝗦𝗧𝗔𝗟𝗟 𝗨𝗕𝗨𝗡𝗧𝗨 𝗣𝗥𝗢𝗗𝗨𝗖𝗧𝗜𝗩𝗜𝗧𝗬 𝗦𝗢𝗙𝗧𝗪𝗔𝗥𝗘</h4>
+<pre><code>apt install ubuntu-gnome-desktop
+</code></pre>
+<h4 id="𝗗𝗢-𝗨𝗕𝗨𝗡𝗧𝗨-𝗥𝗘𝗟𝗘𝗔𝗦𝗘-𝗨𝗣𝗚𝗥𝗔𝗗𝗘--optional">𝗗𝗢 𝗨𝗕𝗨𝗡𝗧𝗨 𝗥𝗘𝗟𝗘𝗔𝗦𝗘 𝗨𝗣𝗚𝗥𝗔𝗗𝗘 | optional</h4>
+<pre><code>do-release-upgrade
+</code></pre>
+<h4 id="𝗨𝗕𝗨𝗡𝗧𝗨-𝗦𝗢𝗙𝗧𝗪𝗔𝗥𝗘-𝗖𝗘𝗡𝗧𝗘𝗥">𝗨𝗕𝗨𝗡𝗧𝗨 𝗦𝗢𝗙𝗧𝗪𝗔𝗥𝗘 𝗖𝗘𝗡𝗧𝗘𝗥</h4>
+<pre><code>apt install gnome-software
+</code></pre>
+<hr>
+<h4 id="🔊-𝗦𝗢𝗨𝗡𝗗-ᴘ️ʀᴇᴠɪᴇᴡ-ᴠᴇʀꜱɪᴏɴ-ᴀɴᴅ-ʟɪɴᴜx-ᴏɴʟʏ">🔊 𝗦𝗢𝗨𝗡𝗗 ᴘ️ʀᴇᴠɪᴇᴡ ᴠᴇʀꜱɪᴏɴ ᴀɴᴅ ʟɪɴᴜx ᴏɴʟʏ</h4>
+<blockquote>
+<p>It only works in Linux.<br>
+First of all, insert kernel module snd-aloop and specify 2 as the index of sound loop device</p>
+</blockquote>
+<pre><code>sudo modprobe snd-aloop index=2
+</code></pre>
+<p>Start the container</p>
+<pre><code>docker run -it --rm -p 6080:80 --device /dev/snd -e ALSADEV=hw:2,0 dorowu/ubuntu-desktop-lxde-vnc
+</code></pre>
+<p>where <code>--device /dev/snd -e ALSADEV=hw:2,0</code> means to grant sound device to container and set basic ASLA config to use card 2.</p>
+<p>Launch a browser with URL <a href="http://127.0.0.1:6080/#/?video">http://127.0.0.1:6080/#/?video</a>, where video means to start with video mode. Now you can start Chromium in start menu (Internet -&gt; Chromium Web Browser Sound) and try to play some video.</p>
+<p>Following is the screen capture of these operations. Turn on your sound at the end of video!</p>
+<p><img src="http://img.youtube.com/vi/Kv9FGClP1-k/0.jpg" alt="YouTube"></p>
+<hr>
+<h2 id="𝗪𝗔𝗥𝗡𝗜𝗡𝗚-𝗗𝗲𝗽𝗿𝗲𝗰𝗮𝘁𝗲𝗱">𝗪𝗔𝗥𝗡𝗜𝗡𝗚: 𝗗𝗲𝗽𝗿𝗲𝗰𝗮𝘁𝗲𝗱</h2>
+<p>Dockerfile and configuration can be generated by template.</p>
+<ul>
+<li>arch: one of <code>amd64</code> or <code>armhf</code></li>
+<li>flavor: refer to file in <code>flavor/flavor.yml</code></li>
+<li>image: base image</li>
+<li>desktop: desktop environment which is set in flavor</li>
+<li><code>addon_package</code>: Debian package to be installed which is set in flavor</li>
+</ul>
+<p>Dockerfile and configuration are re-generate if they do not exist. Or you may force to re-generate by removing them with the command make clean.</p>
+<h3 id="ⓘ-𝗧𝗿𝗼𝘂𝗯𝗹𝗲𝘀𝗵𝗼𝗼𝘁𝗶𝗻𝗴-𝗮𝗻𝗱-𝗙𝗔𝗤">ⓘ 𝗧𝗿𝗼𝘂𝗯𝗹𝗲𝘀𝗵𝗼𝗼𝘁𝗶𝗻𝗴 𝗮𝗻𝗱 𝗙𝗔𝗤</h3>
+<ol>
+<li>boot2docker connection issue 👉 <a href="https://github.com/fcwu/docker-ubuntu-vnc-desktop/issues/2">HERE</a></li>
+<li>Multi-language supports 👉 <a href="https://github.com/fcwu/docker-ubuntu-vnc-desktop/issues/80">HERE</a></li>
+<li>Autostart 👉 <a href="https://github.com/fcwu/docker-ubuntu-vnc-desktop/issues/85#issuecomment-466778407">HERE</a></li>
+<li>x11vnc arguments (multiptr) 👉 <a href="https://github.com/fcwu/docker-ubuntu-vnc-desktop/issues/101">HERE</a></li>
+<li>firefox/chrome crash <code>/dev/shm</code> 👉 <a href="https://github.com/fcwu/docker-ubuntu-vnc-desktop/issues/112">HERE</a></li>
+<li>resize display size without destroying container 👉 <a href="https://github.com/fcwu/docker-ubuntu-vnc-desktop/issues/115#issuecomment-52242603">HERE</a></li>
+</ol>
+<hr>
+<p><img src="https://i.ibb.co/mNzXrm7/image.png" alt="LINUX"></p>
+<h4 id="𝗦𝗢𝗨𝗥𝗖𝗘-code">&lt;/&gt; 𝗦𝗢𝗨𝗥𝗖𝗘 CODE</h4>
+
+<table>
+<thead>
+<tr>
+<th>Website</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>𝗗𝗼𝗰𝗸𝗲𝗿</td>
+<td><a href="https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc">https://hub.docker.com/r/dorowu/ubuntu-desktop-lxde-vnc</a></td>
+</tr>
+<tr>
+<td>𝗚𝗶𝘁𝗵𝘂𝗯</td>
+<td><a href="https://github.com/fcwu/docker-ubuntu-vnc-desktop">https://github.com/fcwu/docker-ubuntu-vnc-desktop</a></td>
+</tr>
+</tbody>
+</table><h1 id="𝗟𝗣-𝟬𝟮">𝗟𝗣-𝟬𝟮</h1>
+</div>
+</body>
+
+</html>
