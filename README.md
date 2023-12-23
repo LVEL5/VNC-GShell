@@ -108,9 +108,7 @@ Dockerfile and configuration are re-generate if they do not exist. Or you may fo
 |𝗚𝗶𝘁𝗵𝘂𝗯|https://github.com/fcwu/docker-ubuntu-vnc-desktop|
 
 
-𝙲𝚁𝙴𝙰𝚃𝙴 𝙱𝚈
-█░░ █▀█ ▄▄ █▀█ ▀█
-█▄▄ █▀▀ ░░ █▄█ █▄  
+# ***𝗟𝗣-𝟬𝟮***
 
 
 
