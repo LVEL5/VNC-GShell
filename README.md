@@ -48,12 +48,16 @@
 
 #### 𝗜𝗡𝗦𝗧𝗔𝗟𝗟 𝗨𝗕𝗨𝗡𝗧𝗨 𝗣𝗥𝗢𝗗𝗨𝗖𝗧𝗜𝗩𝗜𝗧𝗬 𝗦𝗢𝗙𝗧𝗪𝗔𝗥𝗘
     apt install ubuntu-gnome-desktop
+    apt install ubuntu-mate-desktop
 #### 𝗗𝗢 𝗨𝗕𝗨𝗡𝗧𝗨 𝗥𝗘𝗟𝗘𝗔𝗦𝗘 𝗨𝗣𝗚𝗥𝗔𝗗𝗘 | optional
     do-release-upgrade
 
 #### 𝗨𝗕𝗨𝗡𝗧𝗨 𝗦𝗢𝗙𝗧𝗪𝗔𝗥𝗘 𝗖𝗘𝗡𝗧𝗘𝗥
     apt install gnome-software
 
+
+#### 𝗙𝗜𝗥𝗘𝗙𝗢𝗫 𝗨𝗣𝗗𝗔𝗧𝗘
+ [**Firefox Update**]([https://shell.cloud.google.com/?show=ide,terminal&authuser=1&fromcloudshell=true](https://news.itsfoss.com/mozilla-firefox-deb/))
 
 
 ----------
