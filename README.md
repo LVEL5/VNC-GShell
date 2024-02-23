@@ -41,8 +41,7 @@
 
 #### 𝗦𝗬𝗦𝗧𝗘𝗠 𝗨𝗣𝗗𝗔𝗧𝗘 & 𝗜𝗡𝗦𝗧𝗔𝗟𝗟 𝗧𝗢𝗢𝗟𝗦
 
-    sudo su
-    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 6494C6D6997C215E
+    apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 6494C6D6997C215E
     apt-get update -y
     apt-get upgrade -y
 
