@@ -29,9 +29,10 @@
 ### 𝗥𝗨𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗕𝗘𝗟𝗢𝗪
 
     docker run -p 6070:80 dorowu/ubuntu-desktop-lxde-vnc
+    docker run -p 6080:80 --shm-size=512m tiryoh/ros-desktop-vnc:melodic
 
 #### 𝗖𝗛𝗔𝗡𝗚𝗘 𝗣𝗢𝗥𝗧
-#### 𝗣𝗢𝗥𝗧 : `6070`
+#### 𝗣𝗢𝗥𝗧 : `6070` | '6080'
 ![Port Setting](https://i.ibb.co/k0sTNcY/Screenshot-2023-12-23-5-37-51-AM.png)  ![Change Port](https://i.ibb.co/vQNHtbh/Screenshot-2023-12-23-5-39-19-AM.png) 
 
 #### 𝗗𝗢𝗖𝗞𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
